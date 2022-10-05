@@ -1,0 +1,197 @@
+body{
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  color: #CFD2CF;
+}
+
+h1{
+  padding-top: 10px;
+  font-family: 'Abril Fatface', serif;
+  font-size: 4rem;
+}
+h5{
+  padding-top: 1px;
+  font-family: 'Abril Fatface', serif;
+  font-size: 2.5rem;
+}
+
+h2,h4{
+  font-family: 'Abril Fatface', serif;
+  font-size: 3rem;
+  font-weight: lighter;
+
+}
+h3{
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.9rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  font-size: 2rem;
+}
+p1{
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+hr{
+  border-style: dashed double none;
+  border-width: 7.5px;
+  width: 30%; /* Line to make it shorter */
+  margin: 150px auto;
+  color: #D0B8A8;
+}
+
+ /* Top Section */
+.top-container{
+  padding-top:5px;  /* Para mawala border sa containers */
+  text-align:center;
+  background-color: #7FBCD2;
+}
+.pro{  /* Underline in programmer */
+  text-decoration: underline;
+}
+
+.right-cloud{  /* Right cloud settings*/
+  position: absolute;
+  right:300px;
+  transition: all 2s ease-in-out;
+}
+.right-cloud:hover{
+  transform: rotate(360deg);
+}
+
+.left-cloud{
+  position: absolute;
+  left:300px;
+  transition: all 2s ease-in-out;
+}
+.left-cloud:hover{
+  transform: rotate(360deg);
+}
+.computer{
+  margin: auto;
+  border-radius:150px;
+
+  width: 30%;
+  margin-right: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+ /* Middle Section */
+.middle-container{ /* Modifies all things in mid section */
+  padding: 2px 0;
+  background-color: #A5F1E9;
+  text-align: center;
+  color: brown;
+}
+
+.rounded-profile{
+  border-radius:150px;
+  height:250px;
+  width: 250;
+}
+ .skill-row{ /* To arrange picture to the left of basketball */
+   margin: auto;
+   text-align: left;
+   width: 50%
+   }
+
+.basketball{ /* BASKETBALL PICTURE SETTINGS */
+  border-radius:150px;
+  height:250px;
+  width: 30%;
+  float:left;
+  margin-right: 50px;
+}
+.singing{ /* SINGING PICTURE SETTINGS */
+  height:250px;
+  width: 30%;
+  float:right;
+  margin-right: 50px;
+}
+
+.joker{ /* JOKER PICTURE SETTINGS */
+  border-radius:150px;
+  height:250px;
+  width: 30%;
+  float:left;
+  margin-right: 50px;
+}
+
+.easy{ /* FRIEND PICTURE SETTINGS */
+  border-radius:200px;
+  height:250px;
+  width: 30%;
+  float:right;
+  margin-right: 15px;
+}
+
+.profile{
+  margin: auto;
+  width: 30%
+}
+
+.btn {
+   background: #5A5A5A;
+   background-image: -webkit-linear-gradient(top, #5A5A5A, #7895B2);
+   background-image: -moz-linear-gradient(top, #5A5A5A, #7895B2);
+   background-image: -ms-linear-gradient(top, #5A5A5A, #7895B2);
+   background-image: -o-linear-gradient(top, #5A5A5A, #7895B2);
+   background-image: -webkit-gradient(to bottom, #5A5A5A, #7895B2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #AEBDCA;
+   font-family: Verdana;
+   font-size: 21px;
+   font-weight: 100;
+   padding: 21px;
+   -webkit-box-shadow: 1px 1px 4px 0 #000000;
+   -moz-box-shadow: 1px 1px 4px 0 #000000;
+   box-shadow: 1px 1px 4px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #555555 0;
+   background: #555555;
+   background-image: -webkit-linear-gradient(top, #555555, #979694);
+   background-image: -moz-linear-gradient(top, #555555, #979694);
+   background-image: -ms-linear-gradient(top, #555555, #979694);
+   background-image: -o-linear-gradient(top, #555555, #979694);
+   background-image: -webkit-gradient(to bottom, #555555, #979694);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+ /* Middle Section */
+ .bottom-container{
+   padding: 50px;
+   text-align: center;
+   background-color: #E1FFEE;
+ }
+
+ .footer-link{
+   margin: 0 30px;
+   font-size: 30px;
+   text-decoration: none;
+ }
+
+.credits{
+
+  font-size: 20px;
+  color: brown;
+}
